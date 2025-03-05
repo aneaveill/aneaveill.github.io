@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Bootstrap imports-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		
+		<title>CS 1</title>
+		
+		<!--additional Styles-->
+		<link href = "style.css" rel = "stylesheet">
+		
+		<script src="https://kit.fontawesome.com/adca25aeec.js" crossorigin="anonymous"></script>
+	
+		
+		
+	</head>
+	<body>
+		<!--Navbar code -->
+		<nav class="navbar navbar-expand-lg navbar-custom">
+			<div class="navbar-custom container-fluid">
+				<a class="navbar-custom navbar-brand">Mr. N's page</a>
+				<button class="navbar-custom navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class = "navbar-custom navbar-toggler-icon"></span>
+				</button>
+				<div class = "collapse navbar-collapse navbar-custom" id="navbarSupportedContent">
+					<ul class="navbar-custom navbar-nav me-auto mb-2 mb-lg-0">
+						<li class = "navbar-custom nav-item">
+							<a class = "navbar-custom nav-link menuHover" href="index.html">Home</a>
+						</li>
+						<li class = "navbar-custom nav-item">
+							<a class = "navbar-custom nav-link menuHover" href="bio.html">About Me</a>
+						</li>
+						<li class = "navbar-custom nav-item">
+							<a class = "navbar-custom nav-link menuHover" href="links.html">Useful Links</a>
+						</li>
+						
+						<li class="navbar-custom nav-item dropdown">
+							<a class="navbar-custom nav-link dropdown-toggle navbar-custom menuHover" href="courses.html" role="button" data-bs-toggle="dropdown" >
+								Courses
+							</a>
+							<ul class="dropdown-menu accentSecond navbar-custom">
+								<li><a class="dropdown-item navbar-custom menuHover" href="cs1.html">Computer Science 1</a></li>
+								<li><a class="dropdown-item navbar-custom menuHover" href="cs2.html">Computer Science 2</a></li>
+								<li><a class="dropdown-item navbar-custom menuHover" href="APCSA.html">AP Computer Science A</a></li>
+								<li><a class="dropdown-item navbar-custom menuHover" href="web1.html">Web Design (Semester 1)</a></li>
+								<li><a class="dropdown-item navbar-custom menuHover" href="web2.html">Web Design (Semester 2)</a></li>
+								<li><a class="dropdown-item navbar-custom menuHover" href="cyberintro.html">Cybersecurity</a></li>
+							</ul>
+						</li>
+						
+						
+					</ul>
+					
+					<ul class="navbar-nav d-flex flex-row me-1" id="themeoptions">
+						<button class="btn navbar-custom menuHover" type="button" value="light"><i value="light" class="fa-solid fa-sun"></i></button>
+						<button class="btn navbar-custom menuHover" type="button" value="dark"><i value="dark" class="fa-solid fa-moon"></i></button>
+						<button class="btn navbar-custom menuHover" type="button" value="h4x0r"><i value="h4x0r" class="fa-solid fa-code"></i></button>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		
+		
+		<!-- Actual Content-->
+		<div class="container-fluid row">
+			<div class = "col-12">
+				<h1>Computer Science 1</h1>
+				<h2>Course Description</h2>
+				<p>Computer Science 1 is designed to give students foundational skills applicable to all programming languages, but
+				will focus specifically on object oriented programming. Students will apply programming concepts to the
+				development of projects using Java and/or C#. Topics covered will include datatypes, variables, boolean logic,
+				conditional statements, loops, String objects, and functions/methods.</p>
+			</div>
+		</div>
+		<div class="container-fluid row">
+			<div class = "col-md-5 col-12 UnitDisplay">
+				<h1 style="text-decoration: underline">Introduction</h1>
+				<h2>Unit 0 Overview</h2>
+				<p>For this "unit", the primary focus will be on making sure you can navigate the Canvas course to find what you need, and can submit files and such where they need to go.</p>
+				<br>
+				<h2>Objectives</h2>
+				<ul>
+					<li>Students will be able to successfully navigate and use the Canvas coursework</li>
+					<li>Students will prepare online accounts in advance so they can succeed in future coursework</li>
+				</ul>
+				<br>
+				<h2>Power Standards</h2>
+				<ul>
+					<li>None</li>
+				</ul>
+				<br>
+				<h2>Slides: None</h2>
+				<br>
+				<h2>Assignments/Practice</h2>
+				<ul>
+					<li>Writing Assignment in Canvas
+						<ul>
+							<li>A brief writing prompt that must be submitted through Canvas</li>
+						</ul>
+					</li>
+					<li>Screenshot Assignment in Canvas
+						<ul>
+							<li>Practice Submitting screenshots through Canvas</li>
+						</ul>
+					</li>
+					<li>Make a PracticeIT Account
+						<ul>
+							<li>Make a personal account on <a class="accentSecond" href="https://practiceit.cs.washington.edu/">PracticeIT</a> and be sure to tell me your username</li>
+							<li>PracticeIT is where the early practice work will be located</li>
+						</ul>
+					</li>
+				</ul>
+				
+			</div>
+			<div class = "col-md-5 col-12 UnitDisplay">
+				<h1 style="text-decoration: underline">Variables, Datatypes, and I/O</h1>
+				<h2>Unit 1 Overview</h2>
+				<p>In this unit you will start to become acquainted with foundational concepts in Java.</p>
+				<br>
+				<h2>Objectives</h2>
+				<ul>
+					<li>Students will be able to output text to the console </li>
+					<li>Students will be able to store values into variables using appropriate datatypes</li>
+					<li>Students will be able to create and use basic methods/functions (no parameters/returns)</li>
+					<li>Students will be able to prompt for user input and store it for future use</li>
+					<li>Students will be able to write professional-looking, organized code with comments and adequate spacing</li>
+				</ul>
+				<br>
+				<h2>Power Standards</h2>
+				<ul>
+					<li>Output (Print)</li>
+					<li>Variables/Datatypes</li>
+					<li>Methods/Functions (without parameters/returns)</li>
+					<li>Input (Scanner)</li>
+					<li>Coding Etiquette / Best Practices
+						<ul>
+							<li>Note: This will just be the general knowledge portion of the etiquette, as the course progresses ALL code is subject to the etiquette standard and points can be reduced for breaches of general coding etiquette.</li>
+						</ul>
+					</li>
+				</ul>
+				<br>
+				<a class ="accentSecond" href="https://docs.google.com/presentation/d/1AUBzV6U2MBD8zbKNFV6dkXponqO6Zkaki5v26lzunaU/edit?usp=sharing"><h2>Unit 1 Slides</h2></a>
+				<br>
+				<h2>Assignments/Practice</h2>
+				<ul>
+					<li>
+						PracticeIT (Binary Intro) 
+						<ul>
+							<li>Allows students become acquainted with the PracticeIT platform and get a little practice with binary values</li>
+							<li>Building Java Programs, 5th Edition, Chapter 1, Self-Checks 1-3</li>
+						</ul>
+					</li>
+					<li>
+						PracticeIT (Output Practice) 
+						<ul>
+							<li>A series of problems allowing for the practice using System.out.print() and System.out.println()</li>
+							<li>Building Java Programs, 5th Edition, Chapter 1, Self-Checks 7-10</li>
+						</ul>
+					</li>
+					<li>
+						PracticeIT (Binary Intro) 
+						<ul>
+							<li>Allows students become acquainted with the PracticeIT platform and get a little practice with binary values</li>
+							<li>Building Java Programs, 5th Edition, Chapter 1, Self-Checks 1-3</li>
+						</ul>
+					</li>
+					<li>
+						Practice Lab - "Introduce Yourself" 
+						<ul>
+							<li>Your very first program! This will allow you to expand on the "Hello World" program and give it your own personal touch. Additionally this will give you practice using an Online IDE </li>
+							<li>Your task will be to write a program that prints output introducing yourself with at least 5 lines of output.</li>
+						</ul>
+					</li>
+					<li>
+						Exact Instruction Activity 
+						<ul>
+							<li>Gives you some practice being precise with your language of, details of, and order of your instructions. This is intended to give you some insight as to how the compiler will treat your code.</li>
+							<li>Your task will be to partner up with someone in the room. After watching a video of how instructions can be... misinterpreted, you each write your own set of instructions to make a peanut butter and jelly sandwich. Then, your partner must pick apart those instructions for any amount of vagueness or something that can be misunderstood.</li>
+						</ul>
+					</li>
+					<li>
+						PracticeIT (Basic Methods/Functions) 
+						<ul>
+							<li>In this practice, you will get to write methods/functions and call methods/functions</li>
+							<li>Remember, the main() method is the only one the program runs to start, and the order things are called within main() or any function within the main() matters.</li>
+							<li>Building Java Programs, 5th Edition, Chapter 1, Self-Checks 21-28</li>
+						</ul>
+					</li>
+					<li>
+						PracticeIT (Code Cleanliness) 
+						<ul>
+							<li>This practice is simply showing you how messy code can lead to problems. You will be asked to make the code more presentable/readable.</li>
+							<li>Building Java Programs, 5th Edition, Chapter 1, Self-Checks 30-32</li>
+						</ul>
+					</li>
+					<li>
+						PracticeIT (Math Operators) 
+						<ul>
+							<li>This is practice using the math operators in Java. The focus here is order of operations (P-E-MMD-AS, yes that extra M is on purpose for modulus % ).</li>
+							<li>Remember, Math operations only carry the decimal through to the result if there was a decimal on either operand to begin with. Ex. 3/2 is 1, but 3.0/2, 3/2.0, and 3.0/2.0 all result in 1.5</li>
+							<li>Also remember that a String (something in quotes) + anything results in a String combining the two. "hi" + 5 is "hi5", 2+"4" is 24, etc. Make sure you are working one operation at a time, with order of operations, left to right</li>
+							<li>Building Java Programs, 5th Edition, Chapter 2, Self-Checks 1-5</li>
+							<ul>
+								<li>Note: on problems 3-5 you only need to evaluate 7 math expressions from each page, not the whole set.</li>
+							</ul>
+						</ul>
+					</li>
+					<li>
+						PracticeIT (Variables and Datatypes) 
+						<ul>
+							<li>In this one, the practice focuses on declaring and using variables with appropriate datatypes</li>
+							<li>Building Java Programs, 5th Edition, Chapter 2, Self-Checks 6-10</li>
+						</ul>
+					</li>
+					<li>
+						PracticeIT (Math with Variables) 
+						<ul>
+							<li>Now we are practicing math with variable assignment!</li>	
+							<li>Building Java Programs, 5th Edition, Chapter 2, Self-Checks 13-17</li>
+						</ul>
+					</li>
+					<li>
+						Scanner Exit Ticket 
+						<ul>
+							<li>The focus of this exit ticket is to make sure you really understand how to import, declare and use a Scanner to get input</li>
+							<li>The task is to write a small program that will ask the user for their favorite food. You then store that input into a variable and show that it was correctly scanned by using that variable in a sentence agreeing. Ex. "I think _______ is the best food ever" but the blank should instead be the value of their scanned input.</li>
+						</ul>
+					</li>
+					<li>
+						Unit 1 Study Guide 
+						<ul>
+							<li>Students will get a list of focus topics for the exam so they can compile notes, practice, and examples to assist them on the exam.</li>
+						</ul>
+					</li>
+				</ul>
+				<h2>Assessments</h2>
+				<ul>
+					<li>Song Lyric Project</li>
+					<ul>
+						<li>Students are to write a Java Program that prints a song of their choosing, using a method/function to print the chorus</li>
+						<li>Assesses the following standards:</li>
+						<ul>
+							<li>Output</li>
+							<li>Methods/Functions</li>
+						</ul>
+					</ul>
+					<li>Mad Lib Project</li>
+					<ul>
+						<li>Students will create a program that generates a silly story "Mad Lib" style. They will prompt the user for input (nouns/verbs/etc), store that input in variables, and then use those variables to fill in some blanks in a silly story.</li>
+						<li>Assesses the following standards:</li>
+						<ul>
+							<li>Variables/Dataypes</li>
+							<li>Input</li>
+							<li>Coding Etiquette</li>
+						</ul>
+					</ul>
+					<li>Unit 1 Exam</li>
+					<ul>
+						<li>Assesses all standards from unit 1</li>
+					</ul>
+				</ul>
+			</div>
+			<div class = "col-md-5 col-12 UnitDisplay">
+				<h1 style="text-decoration: underline">Booleans, Conditionals, and Strings</h1>
+				<h2>Unit 2 Overview</h2>
+				<p>In this unit you will start learn how to guide your program to make decisions based on true/false statements. You will also learn how to further manipulate text in Java.</p>
+				<br>
+				<h2>Objectives</h2>
+				<ul>
+					<li>Students will be able to create and evaluate true/false statements with various operators </li>
+					<li>Students will be able to create and evaluate code that uses conditional statements (if, if->else, if->else-if->else</li>
+					<li>Students will be able to use methods within the String class to read and manipulate text Strings</li>
+				</ul>
+				<br>
+				<h2>Power Standards</h2>
+				<ul>
+					<li>Booleans</li>
+					<li>Conditionals</li>
+					<li>String Methods</li>
+				</ul>
+				
+				<br>
+				<a class ="accentSecond" href="https://docs.google.com/presentation/d/1g3kRxhaElXqRAWPz8d5kNoSbfrUKpFhj69Z3AgUKHqs/edit?usp=sharing"><h2>Unit 2 Slides</h2></a>
+				<br>
+				<h2>Assignments/Practice</h2>
+				<ul>
+					<li>
+						Boolean Exit Ticket 
+						<ul>
+							<li>A short series of questions where you are given values for 3 variables (x, y, and z), and using those evaluate a series of expressions that yield true or false</li>
+						</ul>
+					</li>
+					<li>
+						Trux Falsy Practice 
+						<ul>
+							<li><a href="https://twodee.org/truxfalsy/">Trux-Falsy is a visual practice for boolean expressions</a></li>
+							<li>Students need to make their way through all challenges up through Generation 2, Litter 4</li>
+							<li>No need for 3 star solutions, that just means it was the most efficient/least calculation solution</li>
+							<li>Student can go beyond those problems if they want more practice</li>
+							
+							
+						</ul>
+					</li>
+					<li>
+						Boolean Bingo 
+						<ul>
+							<li>A short social activity where students need to fill out a bingo board by interpreting boolean statements and finding classmates for which those statements are true</li>
+						</ul>
+					</li>
+					<li>
+						Conditional Exit Ticket
+						<ul>
+							<li>A brief check to make sure students are able to write an if-else conditional statement.</li>
+						</ul>
+					</li>
+					<li>
+						PracticeIT (Conditionals) 
+						<ul>
+							<li>In this practice, studets will get to practice writing conditionals to meet specific criteria.</li>
+							<li>Building Java Programs, 5th Edition, Chapter 4, Self Checks 7-11</li>
+						</ul>
+					</li>
+					<li>
+						String Exit Ticket 
+						<ul>
+							<li>A brief check where students are asked to manipulate Strings using String methods to make sure they understand how to properly implement these methods.</li>
+						</ul>
+					</li>
+					<li>
+						Unit 2 Study Guide 
+						<ul>
+							<li>Students will get a list of focus topics for the exam so they can compile notes, practice, and examples to assist them on the exam.</li>
+						</ul>
+					</li>
+				</ul>
+				<h2>Assessments</h2>
+				<ul>
+					<li>Boolean Quiz</li>
+					<ul>
+						<li>A short quiz over boolean statements. Students will be expected to both construct and interpret boolean statements</li>
+						<li>Assesses the following standards:</li>
+						<ul>
+							<li>Booleans</li>
+						</ul>
+					</ul>
+					<li>Favorite Things Project</li>
+					<ul>
+						<li>Students will create a program that asks the user what their favorite ______ is (filling in the black with some category like food, color, movie, game, etc). If the user's input matches the programmer's favorite, the program says something in response to acknowledge that. This output should be different if it doesn't match.</li>
+						<li>Students can use the Scanner Exit Ticket as a baseline, but will need to expand it to decide the output using a conditional, and will need String mathods to compare Strings correctly within the condition.</li>
+						<li>Students can further customize it and show their skills by changing to match multiple different inputs with unique outputs. They can also use different String methods to accept variations on input (ex. Favorite color of "blue" or "Royal Blue" or "BLue" would all be accepted as "Blue"). </li>
+						<li>Assesses the following standards:</li>
+						<ul>
+							<li>Conditionals</li>
+							<li>String Methods</li>
+						</ul>
+					</ul>
+					<li>Unit 2 Exam</li>
+					<ul>
+						<li>Assesses all standards from unit 2</li>
+					</ul>
+				</ul>
+			</div>
+			<div class = "col-md-5 col-12 UnitDisplay">
+				<h1 style="text-decoration: underline">Loops</h1>
+				<h2>Unit 3 Overview</h2>
+				<p>In this unit you will learn how to use loops to repeat and iterate sections of code.</p>
+				<br>
+				<h2>Objectives</h2>
+				<ul>
+					<li>Students will be able to write code that uses loops to repeat code </li>
+					<li>Students will be able to write and trace `for` loops</li>
+					<li>Students will be able to write and trace `while` loops</li>
+				</ul>
+				<br>
+				<h2>Power Standards</h2>
+				<ul>
+					<li>Loops</li>
+				</ul>
+				<br>
+				<a class ="accentSecond" href="https://docs.google.com/presentation/d/1S0ERpPmym0GwFjUSYWCO1fGIcp2pOsXtJSafwrQ2kGg/edit?usp=sharing"><h2>Unit 3 Slides</h2></a>
+				<br>
+				<h2>Assignments/Practice</h2>
+				<ul>
+					<li>
+						PracticeIT (For Loop Creation) 
+						<ul>
+							<li>This is a set of practice problems where students will be asked to write `for` loops</li>
+							<li>Building Java Programs, 5th Edition, Chapter 2, Self-Checks 21-23</li>
+						</ul>
+					</li>
+					<li>
+						PracticeIT (For Loop Tracing) 
+						<ul>
+							<li>This is a set of practice problems where students will be asked to trace `for` loops</li>
+							<li>Building Java Programs, 5th Edition, Chapter 2, Self-Checks 24-28</li>
+						</ul>
+					</li>
+					<li>
+						While Loop Tracing Exit Ticket 
+						<ul>
+							<li>Students will be given a brief looping task that must be written using a `while` loop</li>
+						</ul>
+					</li>
+				</ul>
+				<h2>Assessments</h2>
+				<ul>
+					<li>Looping Project</li>
+					<ul>
+						<li>This project will require students to use loops to address a task of their choosing.</li>
+						<li>Students can choose their own level of difficulty by picking one of two tasks
+							<ul>
+								<ul>
+									<li><strong>Times Table Generator</strong></li> 
+									<li>Students will prompt the user for a number and how many multiples of that value they want to see. The program will then display those values.</li>
+									<li>Example:<br><strong>Enter a number:</strong> 5<br><strong>How many multiples do you wish to see? </strong>10<br><strong>Result: 5 10 15 20 25 30 35 40 45 50</strong></li>
+								</ul>
+							</ul>
+						</li>
+						<li>Assesses the following standards:</li>
+						<ul>
+							<li>Loops</li>
+						</ul>
+					</ul>
+					<li>Unit 3 Quiz</li>
+					<ul>
+						<li>Assesses all standards from unit 3</li>
+					</ul>
+				</ul>
+			</div>
+			<div class = "col-md-5 col-12 UnitDisplay">
+				<h1 style="text-decoration: underline">Final Exam CS1</h1>
+				<h2>Assignments</h2>
+				<ul>
+					<li>Semester 1 Study Guide</li>
+					<ul>
+						<li>This will highlight all topics from the course covered on the final, including some sample problems. Students will be able to compile notes/references to use during the exam.
+					</ul>
+					
+				</ul>
+				<h2>Assessments</h2>
+				<ul>
+					<li>Semester 1 Final Exam</li>
+					<ul>
+						<li>Assesses all standards from Unit 1</li>
+					</ul>
+				</ul>
+			</div>
+		</div>
+
+		
+		<!--Scripts -->
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+		
+		<script src = "scripts.js"></script> 
+	</body>
+</html>
+

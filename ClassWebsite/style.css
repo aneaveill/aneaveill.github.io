@@ -1,0 +1,103 @@
+:root{
+	--text: #1a1e1c;
+	--background: #b2b2dc;
+	--primary: #279cce;
+	--secondary: #8079dc;
+	--accent: #36018A;
+}
+
+#themeoptions p{ /* User Interface */
+  display: inline-block;
+  text-decoration: underline;
+  color: var(--accent);
+}
+
+#themeoptions p:hover{cursor: pointer}
+
+
+:root.light{
+	--text: #1a1e1c;
+	--background: #b2b2dc;
+	--primary: #279cce;
+	--secondary: #8079dc;
+	--accent: #36018A;
+
+}
+
+:root.dark{
+	--text: #E7E5FF;
+	--background: #4A4860;
+	--primary: #290FFF;
+	--secondary: #140E48;
+	--accent: #5B48FD;
+
+}
+
+:root.h4x0r{
+	--text: #00ff26;
+	--background: #030303;
+	--primary: #047515;
+	--secondary: #004209;
+	--accent: #3be4ff;
+
+}
+
+:root, :root.light, :root.dark, :root.h4x0r {
+    transition: all 0.9s ease-in-out;
+}
+
+body {
+	background-color: var(--background);
+	color: var(--text);
+}
+
+.primary{
+	background-color: var(--primary);
+	color: var(--text);
+}
+
+.secondary{
+	background-color: var(--secondary);
+	color: var(--text);
+}
+
+.accentPrime{
+	background-color: var(--primary);
+	color: var(--accent);	
+}
+
+.accentSecond{
+	background-color: var(--secondary);
+	color: var(--accent);	
+}
+
+.accentBG{
+	background-color: var(--accent);
+	color: var(--text);
+}
+
+.menuHover:hover{
+	background-color: var(--primary);
+	color: var(--text);	
+}
+
+.navbar-custom,
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    background-color: var(--secondary);
+	color: var(--text);
+}
+
+.UnitDisplay{
+	background-color: var(--secondary);
+	color: var(--text);
+	border: solid 1px var(--accent);
+	margin: 20px;
+}
+
+.menuClick:active{
+	background-color: var(--secondary);
+	color: var(--text);
+}
+
+
