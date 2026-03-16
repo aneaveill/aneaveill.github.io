@@ -1,0 +1,20 @@
+body{
+    background-color:cyan;
+}
+img{
+    transition:width 2s ease;
+}
+#corgi{
+    animation: myAnimation 4s;
+}
+@keyframes myAnimation {
+  from {
+      width: 50px;
+      rotate: 0deg;
+      
+  }
+  to {
+      width: 400px;
+      rotate: 360deg;
+  }
+}
