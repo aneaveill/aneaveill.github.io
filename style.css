@@ -1,4 +1,11 @@
 body{
-	background-color: lightcyan;
-	color: orange;
+    background-color: cyan;
+}
+#nav{
+    background-color: lime;
+}
+a{
+    border: 1px black solid;
+    padding: 2px;
+    margin:2px;
 }
